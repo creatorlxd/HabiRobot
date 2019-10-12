@@ -10,11 +10,6 @@ link_directories(/usr/local/lib)
 
 aux_source_directory(./source SRC_LIST)
 
-add_custom_command(TARGET HabiRobot
-	POST_BUIID
-    COMMAND cp ./resource/main.css ./build/main.css
-)
-
 add_executable(HabiRobot ${SRC_LIST})
 target_link_libraries(HabiRobot wt)
 target_link_libraries(HabiRobot wthttp)
