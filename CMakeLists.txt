@@ -14,7 +14,7 @@ add_executable(HabiRobot ${SRC_LIST})
 target_link_libraries(HabiRobot wt)
 target_link_libraries(HabiRobot wthttp)
 add_custom_command(
-	HabiRobot
+	TARGET HabiRobot
 	POST_BUIID
     COMMAND cp ./resource/main.css ./build/main.css
 )
