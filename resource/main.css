@@ -1,0 +1,58 @@
+﻿.text {
+    display: inline-block;
+    border: 1px solid rgba(1,1,1,0.3);
+    border-radius: 10px;
+    padding: 3px 5px 3px 5px;
+    /*font-size: 18px;*/
+}
+
+.wrapper {
+    border: 1px solid rgba(1,1,1,0.1);
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+body {
+    font-family: Consolas;
+}
+
+.text_user {
+    background-color: #e5f2ff;
+}
+
+.text_ai {
+    background-color: #ffc0cb;
+}
+
+.text_wrapper {
+    width: 100%;
+    /*height: 28px;*/
+}
+
+.text_wrapper_user {
+    text-align: left;
+}
+
+.text_wrapper_ai {
+    text-align: right;
+}
+
+.top_wrapper {
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.top_button {
+    border: 1px solid rgba(26,26,26,.1);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.top_input {
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    background: #f6f6f6;
+    font-size: 20px;
+    line-height: 20px;
+}
