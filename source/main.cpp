@@ -4,7 +4,6 @@
 #include <Wt/WLineEdit.h>
 #include <Wt/WPushButton.h>
 #include <Wt/WText.h>
-#include "Utility.h"
 #include "Robot.h"
 
 int main(int argc, char **argv)
