@@ -39,7 +39,7 @@ class RobotApplication : public Wt::WApplication
 public:
 	RobotApplication(const Wt::WEnvironment& env);
 
-	inline static unsigned int sm_MaxMessage = 15;
+	static const unsigned int sm_MaxMessage = 15;
 
 private:
 	void RobotProcess();
