@@ -35,7 +35,7 @@ private:
 	std::function<void()> m_Function;
 };
 
-constexpr unsigned int sm_MaxMessage = 15;
+constexpr unsigned int g_MaxMessage = 15;
 
 class RobotApplication : public Wt::WApplication
 {

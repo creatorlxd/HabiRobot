@@ -17,11 +17,11 @@ RobotApplication::RobotApplication(const Wt::WEnvironment& env)
 	root()->addWidget(std::make_unique< Wt::WBreak>());
 
 	m_pWrapper = root()->addWidget(std::make_unique<Wt::WPanel>());
-	auto pmessage_shower = std::make_unique<MessageShower>(sm_MaxMessage);
+	auto pmessage_shower = std::make_unique<MessageShower>(g_MaxMessage);
 	m_pMessageShower = pmessage_shower.get();
 	m_pWrapper->setCentralWidget(std::move(pmessage_shower));
 	m_pWrapper->addStyleClass("wrapper");
-	m_pWrapper->resize(Wt::WLength::Auto, Wt::WLength(28.0*sm_MaxMessage));	//28 mean wrapper's font-size
+	m_pWrapper->resize(Wt::WLength::Auto, Wt::WLength(28.0*g_MaxMessage));	//28 mean wrapper's font-size
 
 	m_RobotTexts = {
 	L"您真是太强了",
