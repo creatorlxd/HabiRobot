@@ -34,13 +34,13 @@ private:
 	Wt::WHBoxLayout* m_pLayout;
 	std::function<void()> m_Function;
 };
+
+constexpr unsigned int sm_MaxMessage = 15;
+
 class RobotApplication : public Wt::WApplication
 {
 public:
 	RobotApplication(const Wt::WEnvironment& env);
-
-	static constexpr unsigned int sm_MaxMessage = 15;
-
 private:
 	void RobotProcess();
 
