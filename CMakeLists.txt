@@ -1,5 +1,5 @@
 project(HabiRobot)
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.4)
 
 include_directories(./include)
 
